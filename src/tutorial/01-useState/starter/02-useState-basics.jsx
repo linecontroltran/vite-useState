@@ -10,8 +10,8 @@ const UseStateBasics = () => {
   const [count, setCount] = useState(0);
 
   const handleClick = () => {
-    //setCount(count + 1);
-    setCount("pants");
+    setCount(count + 1);
+    //setCount("pants");
   };
 
   return (
